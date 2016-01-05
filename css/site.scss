@@ -1,4 +1,4 @@
-.free-dev{
+/*.free-dev{
 	margin-top:2em;
 }
 
@@ -24,7 +24,7 @@
 
 .sign{
 	padding-top:2em;
-}
+}*/
 
 .container{
 	padding-bottom:10%;
@@ -67,12 +67,12 @@
 	}
 }
 
-footer{
-	.simple-blue{
-		background-color: #0778bd !important;
-		bottom:0;
-		margin: 0;
-	}
+#footer{
+	background-color: #0778bd !important;
+	position:fixed; 
+	bottom:0;
+	width:100%;
+	height: 5%;
 }
 
 .menu{

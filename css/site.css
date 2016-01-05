@@ -1,24 +1,30 @@
-.free-dev {
-  margin-top: 2em; }
+/*.free-dev{
+	margin-top:2em;
+}
 
-#dash {
-  width: 50%;
-  float: right; }
-  #dash #register-login {
-    width: auto !important; }
-  #dash input {
-    float: left;
-    width: 45%; }
-  #dash a {
-    float: left; }
-  #dash #last {
-    width: 10% !important;
-    vertical-align: bottom;
-    background-imgage: url("./images/go.png"); }
+#dash{
+	width: 50%;
+	float: right;
+	#register-login{
+		width: auto !important; 
+	}
+	input{
+		float:left;
+		width:45%;
+	}
+	a{
+		float:left;
+	}
+	#last{
+		width: 10% !important;
+		vertical-align: bottom;
+		background-imgage:url("./images/go.png");
+	}
+}
 
-.sign {
-  padding-top: 2em; }
-
+.sign{
+	padding-top:2em;
+}*/
 .container {
   padding-bottom: 10%; }
 
@@ -51,10 +57,12 @@
   .top-bar ul {
     background-color: #2e3e50; }
 
-footer .simple-blue {
+#footer {
   background-color: #0778bd !important;
+  position: fixed;
   bottom: 0;
-  margin: 0; }
+  width: 100%;
+  height: 5%; }
 
 .menu {
   width: 100%; }
