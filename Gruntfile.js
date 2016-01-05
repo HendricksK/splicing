@@ -97,7 +97,7 @@ module.exports = function(grunt) {
 
 		sass: {
 			options: {
-				includePaths: ['bower_components/foundation/scss']
+				includePaths: ['scss/*.scss']
 			},
 			dev: {
 				options: {
@@ -107,14 +107,14 @@ module.exports = function(grunt) {
 					'css/style.css' : 'css/scss/*.scss'
 				}
 			},
-			/*prod: {
+			prod: {
 				options: {
 					outputStyle: 'compressed'
 				},
 				files: {
 					'css/app.css' : 'css/scss/*.scss'
 				}
-			}*/
+			}
 		},
 
 		autoprefixer: {
@@ -132,7 +132,8 @@ module.exports = function(grunt) {
 						'images/**/*.jpg',
 						'images/**/*.png',
 						'*.html',
-						'js/**/*.js'
+						'js/**/*.js',
+						'css/*.scss'
 					]
 				},
 				options: {

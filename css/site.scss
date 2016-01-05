@@ -1,3 +1,32 @@
+.free-dev{
+	width: 20%;
+	vertical-align:bottom;
+}
+
+#dash{
+	width: 50%;
+	float: right;
+	#register-login{
+		width: auto !important; 
+	}
+	input{
+		float:left;
+		width:45%;
+	}
+	a{
+		float:left;
+	}
+	#last{
+		width: 10% !important;
+		vertical-align: bottom;
+		background-imgage:url("./images/go.png");
+	}
+}
+
+.container{
+	padding-bottom:10%;
+}
+
 .top-bar{
 	max-width: 73.5rem;
     margin: auto;
@@ -14,7 +43,6 @@
 .padding-bottom{
 	padding-bottom: 3%;
 }
-
 .custom-size{
 	height: auto;
 	width: 100%;
@@ -31,16 +59,47 @@
 .top-bar{
 	background-color: #2e3e50;
 	border-radius: 5px;
-}
-
-.top-bar ul{
+	ul{
 		background-color: #2e3e50;
+	}
 }
 
 footer{
-	max-width: 73.5rem;
-	margin: auto;
+	.simple-blue{
+		background-color: #0778bd !important;
+		bottom:0;
+		margin: 0;
+	}
 }
+
+.menu{
+	width: 100%;
+	.divider{
+	width: 1em !important;
+	height: 2em !important;
+	}
+		li{
+			width: 10em;
+			text-align: center;
+
+			a{
+				padding: 0;
+			}
+		}
+}
+
+.shoping-cart{
+	width: 30em !important;
+		.bold{
+			text-weight: bold;
+
+		}
+		.basket{
+			margin-right: 1em;
+		}
+
+}
+
 /**@media screen and (min-width: 40em){
 .medium-8 {
     width: 73%;

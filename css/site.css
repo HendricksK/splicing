@@ -1,3 +1,25 @@
+.free-dev {
+  width: 20%;
+  vertical-align: bottom; }
+
+#dash {
+  width: 50%;
+  float: right; }
+  #dash #register-login {
+    width: auto !important; }
+  #dash input {
+    float: left;
+    width: 45%; }
+  #dash a {
+    float: left; }
+  #dash #last {
+    width: 10% !important;
+    vertical-align: bottom;
+    background-imgage: url("./images/go.png"); }
+
+.container {
+  padding-bottom: 10%; }
+
 .top-bar {
   max-width: 73.5rem;
   margin: auto; }
@@ -24,13 +46,31 @@
 .top-bar {
   background-color: #2e3e50;
   border-radius: 5px; }
+  .top-bar ul {
+    background-color: #2e3e50; }
 
-.top-bar ul {
-  background-color: #2e3e50; }
+footer .simple-blue {
+  background-color: #0778bd !important;
+  bottom: 0;
+  margin: 0; }
 
-footer {
-  max-width: 73.5rem;
-  margin: auto; }
+.menu {
+  width: 100%; }
+  .menu .divider {
+    width: 1em !important;
+    height: 2em !important; }
+  .menu li {
+    width: 10em;
+    text-align: center; }
+    .menu li a {
+      padding: 0; }
+
+.shoping-cart {
+  width: 30em !important; }
+  .shoping-cart .bold {
+    text-weight: bold; }
+  .shoping-cart .basket {
+    margin-right: 1em; }
 
 /**@media screen and (min-width: 40em){
 .medium-8 {
@@ -46,4 +86,4 @@ footer {
 /* Large and up */
 /* Large only */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=site.css.map */
