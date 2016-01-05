@@ -1,6 +1,5 @@
 .free-dev {
-  width: 20%;
-  vertical-align: bottom; }
+  margin-top: 2em; }
 
 #dash {
   width: 50%;
@@ -17,6 +16,9 @@
     vertical-align: bottom;
     background-imgage: url("./images/go.png"); }
 
+.sign {
+  padding-top: 2em; }
+
 .container {
   padding-bottom: 10%; }
 
@@ -30,8 +32,8 @@
 .slider-container {
   float: left; }
 
-.padding-bottom {
-  padding-bottom: 3%; }
+#ft-pad {
+  padding-top: .8em; }
 
 .custom-size {
   height: auto;

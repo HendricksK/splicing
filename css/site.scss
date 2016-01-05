@@ -1,6 +1,5 @@
 .free-dev{
-	width: 20%;
-	vertical-align:bottom;
+	margin-top:2em;
 }
 
 #dash{
@@ -23,6 +22,10 @@
 	}
 }
 
+.sign{
+	padding-top:2em;
+}
+
 .container{
 	padding-bottom:10%;
 }
@@ -40,8 +43,8 @@
 	float:left;
 }
 
-.padding-bottom{
-	padding-bottom: 3%;
+#ft-pad{
+	padding-top: .8em;
 }
 .custom-size{
 	height: auto;
