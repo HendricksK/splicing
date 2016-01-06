@@ -21,7 +21,6 @@ bold {
 .custom div {
   padding-left: 1em; }
 .custom .btn {
-  float: none !important;
   float: left !important; }
 
 .left-no-padding {
@@ -122,6 +121,13 @@ bold {
       padding-right: 0.4em; }
     .orbit .orbit-indicator li.active {
       background-image: url("../images/slider-li-active.png"); }
+
+#category-holder {
+  padding-bottom: 1em; }
+  #category-holder p {
+    text-align: center; }
+  #category-holder img {
+    margin: auto; }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .orbit .orbit-indicator {

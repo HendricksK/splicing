@@ -1,8 +1,8 @@
-body{
+body {
 	font-family: "Arial";
 }
 
-bold{
+bold {
 	 font-weight: bold;
 }
 
@@ -33,7 +33,6 @@ bold{
 	padding-left: 1em;
 	}
 	.btn{
-		float: none !important;
     	float: left !important;
 	}
 }
@@ -65,39 +64,48 @@ bold{
 	max-width: 73.5rem;
     margin: auto;
     margin-bottom: -1em;
+
 	ul{
 		background-color: #ffffff;
 		list-style-type: none;
 	    margin: 0;
 	    padding: 0;
+
 		li{
 			padding-right: 1px !important;
 			margin:0 !important;
 			height: 40px;
 			width: 9em;	
+
 			a{
 				display:inline-block;
 				overflow: hidden;
 			}
+
 			.button{
 				background:#3a4a5e !important;
 			}
+
 			.active{
 				background-color: #0778bd !important;
 			}
 		}
+
 		.shopping-cart{
 			width: 20em !important;
 			text-align: right !important;
+
 				a{
 					height: 38px !important;
 				}
+
 				img{
 					margin-left: -5em;
 			    	margin-right: 2em !important;
 				}
 		}
 	}
+
 	a{
 		color:#ffffff !important;
 		margin:0;
@@ -163,6 +171,19 @@ bold{
 					background-image:url('../images/slider-li-active.png');
 				}
 			}
+	}
+}
+
+#category-holder {
+	padding-bottom:1em;
+
+	p {
+		text-align: center;
+	}
+
+	img {
+		margin: auto;
+    	
 	}
 }
 
