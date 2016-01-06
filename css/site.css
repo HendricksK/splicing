@@ -1,3 +1,9 @@
+body {
+  font-family: "Arial"; }
+
+bold {
+  font-weight: bold; }
+
 .top-nav-links {
   margin-top: 1.7em; }
 
@@ -18,14 +24,6 @@
   float: none !important;
   float: left !important; }
 
-.shopping-cart {
-  width: 20em !important;
-  text-align: right !important; }
-  .shopping-cart img {
-    margin-left: -5em;
-    margin-right: 2em !important;
-    margin-top: -0.4em; }
-
 .left-no-padding {
   padding-left: 0; }
 
@@ -41,15 +39,36 @@
 .ft-container {
   padding-bottom: 1em; }
 
-.top-bar {
+.menu {
   max-width: 73.5rem;
   margin: auto;
-  background-color: #2e3e50;
-  border-radius: 5px; }
-  .top-bar ul {
-    background-color: #2e3e50; }
-  .top-bar a {
-    color: #ffffff !important; }
+  margin-bottom: -1em; }
+  .menu ul {
+    background-color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+    .menu ul li {
+      padding-right: 1px !important;
+      margin: 0 !important;
+      height: 40px;
+      width: 9em; }
+      .menu ul li .button {
+        background: #3a4a5e !important; }
+      .menu ul li .active {
+        background-color: #0778bd !important; }
+    .menu ul .shopping-cart {
+      width: 20em !important;
+      text-align: right !important; }
+      .menu ul .shopping-cart a {
+        height: 38px !important; }
+      .menu ul .shopping-cart img {
+        margin-left: -5em;
+        margin-right: 2em !important; }
+  .menu a {
+    color: #ffffff !important;
+    margin: 0; }
 
 #footer {
   background-color: #0778bd !important;
@@ -60,17 +79,6 @@
   #footer p {
     font-size: 0.6em;
     vertical-align: middle; }
-
-.menu {
-  width: 100%; }
-  .menu .divider {
-    width: 1em !important;
-    height: 2em !important; }
-  .menu li {
-    width: 8em;
-    text-align: center; }
-    .menu li a {
-      padding: 0; }
 
 .go-submit {
   position: absolute;
@@ -119,11 +127,7 @@
     right: 1em; }
 
   #category-holder {
-    padding-bottom: 1em; }
-
-  .menu li {
-    width: 4em;
-    text-align: center; } }
+    padding-bottom: 1em; } }
 @media screen and (max-width: 39.9375em) {
   img {
     width: 100%; }
@@ -143,10 +147,13 @@
       width: 1em !important;
       height: 2em !important; }
     .menu li {
-      width: 100%;
+      width: 100% !important;
       text-align: center; }
       .menu li a {
         padding: 0; }
+    .menu ul .shopping-cart {
+      width: 100% !important;
+      text-align: right !important; }
 
   .shopping-cart {
     width: 100% !important;
