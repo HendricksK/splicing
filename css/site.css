@@ -1,6 +1,5 @@
 .top-nav-links {
-  margin-top: 1.7em;
-  padding-right: 2em !important; }
+  margin-top: 1.7em; }
 
 #free-deliv {
   margin-top: 3.2em;
@@ -13,9 +12,11 @@
   .sign-in #grey {
     color: #808080; }
 
-.lb_search_simple_form div .btn {
-  height: 2.4em;
-  margin-left: -2em; }
+.custom div {
+  padding-left: 1em; }
+.custom .btn {
+  float: none !important;
+  float: left !important; }
 
 .shopping-cart {
   width: 20em !important;

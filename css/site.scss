@@ -1,6 +1,5 @@
 .top-nav-links{
 	margin-top: 1.7em;
-	padding-right: 2em !important;
 }
 
 #free-deliv{
@@ -21,15 +20,16 @@
 	}
 }
 
-.lb_search_simple_form{
+.custom{
 	div{
-		
-		.btn{
-			height: 2.4em;
-			margin-left: -2em;
-		}
+	padding-left: 1em;
+	}
+	.btn{
+		float: none !important;
+    	float: left !important;
 	}
 }
+
 
 .shopping-cart{
 	width: 20em !important;
