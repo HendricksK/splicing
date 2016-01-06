@@ -1,30 +1,11 @@
-/*.free-dev{
-	margin-top:2em;
+.top-nav-links{
+	margin-top: 1.7em;
 }
 
-#dash{
-	width: 50%;
-	float: right;
-	#register-login{
-		width: auto !important; 
-	}
-	input{
-		float:left;
-		width:45%;
-	}
-	a{
-		float:left;
-	}
-	#last{
-		width: 10% !important;
-		vertical-align: bottom;
-		background-imgage:url("./images/go.png");
-	}
+#free-deliv{
+	margin-top:5.7em;
+	position:relative;
 }
-
-.sign{
-	padding-top:2em;
-}*/
 
 .container{
 	padding-bottom:10%;
@@ -43,9 +24,6 @@
 	float:left;
 }
 
-#ft-pad{
-	padding-top: .8em;
-}
 .custom-size{
 	height: auto;
 	width: 100%;
@@ -91,17 +69,40 @@
 		}
 }
 
-.shoping-cart{
-	width: 30em !important;
-		.bold{
-			text-weight: bold;
-
-		}
-		.basket{
-			margin-right: 1em;
-		}
-
+.lb_search_simple_form{
+	input{
+		height: 2em;
+	}
 }
+
+#go-button{
+	width: 2em;
+    height: 2em;
+    position: relative;
+    display: inline-block;
+    padding-top: 0.3em;
+    margin-left: -1em;
+    img{
+    	height: 2em;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+	.left_padding_remove{
+		padding-left:.9375rem;
+	}
+
+	.marg-lft-25{
+		margin-left: 25%;
+	}
+
+	#go-button {
+    	width: 2em;
+    	top: 3em;
+	}
+}
+
+
 
 /**@media screen and (min-width: 40em){
 .medium-8 {
@@ -113,7 +114,7 @@
 }**/
 
 /* Small only */
-@media screen and (max-width: 39.9375em) {}
+
 
 /* Medium and up */
 @media screen and (min-width: 40em) {}
