@@ -47,13 +47,15 @@ bold {
     background-color: #ffffff;
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden; }
+    padding: 0; }
     .menu ul li {
       padding-right: 1px !important;
       margin: 0 !important;
       height: 40px;
       width: 9em; }
+      .menu ul li a {
+        display: inline-block;
+        overflow: hidden; }
       .menu ul li .button {
         background: #3a4a5e !important; }
       .menu ul li .active {

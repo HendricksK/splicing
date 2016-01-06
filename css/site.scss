@@ -70,12 +70,15 @@ bold{
 		list-style-type: none;
 	    margin: 0;
 	    padding: 0;
-	    overflow:hidden;
 		li{
 			padding-right: 1px !important;
 			margin:0 !important;
 			height: 40px;
-			width: 9em;
+			width: 9em;	
+			a{
+				display:inline-block;
+				overflow: hidden;
+			}
 			.button{
 				background:#3a4a5e !important;
 			}
