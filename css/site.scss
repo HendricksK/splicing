@@ -204,11 +204,13 @@ bold {
 
 #category-holder {
 	padding-bottom:1em;
-	font-family: Rockwell !important;
+	
 
 	p {
 		text-align: center;
 		color: #8d8d8d;
+		font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif !important;
+		font-size: 1.2em;
 		/*&.active {
 				color:#0778bd;
 			}*/

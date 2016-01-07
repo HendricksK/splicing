@@ -12,23 +12,7 @@ module.exports = function(grunt) {
 					'bower_components/jquery/dist/jquery.js',
 					'bower_components/fastclick/lib/fastclick.js',
 					'bower_components/foundation/js/foundation.js', // Include ALL of foundation JS, alternatively select from list below.
-					// 'bower_components/foundation/js/foundation/foundation.js', // Always include me when custom selecting foundation elements to include.
-					// 'bower_components/foundation/js/foundation/foundation.abide.js',
 					'bower_components/foundation/js/foundation/foundation.accordion.js',
-					// 'bower_components/foundation/js/foundation/foundation.alert.js',
-					// 'bower_components/foundation/js/foundation/foundation.clearing.js',
-					// 'bower_components/foundation/js/foundation/foundation.dropdown.js',
-					// 'bower_components/foundation/js/foundation/foundation.equalizer.js',
-					// 'bower_components/foundation/js/foundation/foundation.interchange.js',
-					// 'bower_components/foundation/js/foundation/foundation.joyride.js',
-					// 'bower_components/foundation/js/foundation/foundation.magellan.js',
-					// 'bower_components/foundation/js/foundation/foundation.offcanvas.js',
-					// 'bower_components/foundation/js/foundation/foundation.orbit.js',
-					// 'bower_components/foundation/js/foundation/foundation.reveal.js',
-					// 'bower_components/foundation/js/foundation/foundation.slider.js',
-					// 'bower_components/foundation/js/foundation/foundation.tab.js',
-					// 'bower_components/foundation/js/foundation/foundation.tooltip.js',
-					// 'bower_components/foundation/js/foundation/foundation.topbar.js',
 					'bower_components/jquery-selectric/dist/jquery.selectric.js',
 					'bower_components/packery/dist/packery.pkgd.js',
 					'bower_components/slick.js/slick/slick.js',
@@ -39,7 +23,8 @@ module.exports = function(grunt) {
 					'js/vendor/lb-validate.js',
 					'js/vendor/jquery.countdown.min.js',
 					'js/vendor/magiczoomplus.js',
-					'js/app.js'
+					'js/app.js',
+					'js/*.js'
 				],
 				dest: 'js/production.min.js'
 			},
@@ -153,7 +138,8 @@ module.exports = function(grunt) {
 			},
 
 			sass: {
-				files: 'css/scss/*.scss',
+				files: 'scss/*.scss',
+
 				tasks: [
 					'sass:prod'
 				]
@@ -182,7 +168,10 @@ module.exports = function(grunt) {
 			},
 
 			html: {
-				files: '*.html'
+				files: [
+					'*.html',
+					'src/*.html'
+				]
 			}
 		}
 	});
