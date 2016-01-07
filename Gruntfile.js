@@ -133,7 +133,7 @@ module.exports = function(grunt) {
 						'images/**/*.png',
 						'*.html',
 						'js/**/*.js',
-						'css/*.scss'
+						'scss/*.scss'
 					]
 				},
 				options: {
@@ -189,6 +189,6 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('build', ['autoprefixer:prod', 'concat:prod', 'concat:early_prod']);
 	grunt.registerTask('build-newer', ['newer:autoprefixer:prod', 'newer:concat:prod', 'newer:concat:early_prod']);
-	grunt.registerTask('default', ['build', 'browserSync', 'watch']);
+	grunt.registerTask('default', ['build', 'browserSync', 'watch', 'sass']);
 	// To run livereload remove browserSync from the task above and uncomment livereload further above in the watch task
 }
