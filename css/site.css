@@ -1,6 +1,9 @@
 body {
   font-family: "Arial"; }
 
+p {
+  overflow: hidden; }
+
 bold {
   font-weight: bold; }
 
@@ -147,7 +150,7 @@ bold {
     text-align: center;
     color: #8d8d8d;
     font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif !important;
-    font-size: 1.2em;
+    font-size: 1em;
     /*&.active {
     		color:#0778bd;
     	}*/ }
