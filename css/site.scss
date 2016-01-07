@@ -41,13 +41,6 @@ bold {
 	padding-right:0;
 }
 
-.orbit{
-	 .orbit-container{
-		max-height: 436px;
-		
-	}
-}
-
 .no-padding-at-large{
 	padding: 0! important;
 }
@@ -171,11 +164,17 @@ bold {
     	width: 2em;
     }
 }
-.orbit{
-	.orbit-slide{
+.orbit {
+
+	.orbit-container {
+		max-height: 436px;
+	}
+
+	.orbit-slide {
 		z-index: -9999;
 	} 
-	.orbit-indicator{
+
+	.orbit-indicator {
 		position: absolute;
 		bottom: 2em;
 		right: 2em;
@@ -190,12 +189,18 @@ bold {
 				text-align: center;
 				vertical-align: text-bottom;
 				color:#ffffff !important;
-				span{
+				
+				&:hover {
+					cursor: pointer;
+				}
+
+				span {
 					    position: relative;
 					    top: 0.5em;
 					    padding-right: 0.4em;
 				}
-				&.active{
+
+				&.active {
 					background-image:url('../images/slider-li-active.png');
 				}
 			}

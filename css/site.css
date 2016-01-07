@@ -28,9 +28,6 @@ bold {
 .right-no-padding {
   padding-right: 0; }
 
-.orbit .orbit-container {
-  max-height: 436px; }
-
 .no-padding-at-large {
   padding: 0 !important; }
 
@@ -116,6 +113,8 @@ bold {
     height: 2em;
     width: 2em; }
 
+.orbit .orbit-container {
+  max-height: 436px; }
 .orbit .orbit-slide {
   z-index: -9999; }
 .orbit .orbit-indicator {
@@ -133,6 +132,8 @@ bold {
     text-align: center;
     vertical-align: text-bottom;
     color: #ffffff !important; }
+    .orbit .orbit-indicator li:hover {
+      cursor: pointer; }
     .orbit .orbit-indicator li span {
       position: relative;
       top: 0.5em;
