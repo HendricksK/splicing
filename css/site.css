@@ -37,43 +37,43 @@ bold {
 .ft-container {
   padding-bottom: 1em; }
 
-.menu {
+header .menu {
   max-width: 73.5rem;
   margin: auto;
   margin-bottom: -1em; }
-  .menu ul {
+  header .menu ul {
     background-color: #ffffff;
     list-style-type: none;
     margin: 0;
     padding: 0; }
-    .menu ul li {
+    header .menu ul li {
       padding-right: 1px !important;
       margin: 0 !important;
       height: 40px;
       width: 9em; }
-      .menu ul li a {
+      header .menu ul li a {
         display: inline-block;
         overflow: hidden; }
-      .menu ul li .button {
+      header .menu ul li .button {
         background: #3a4a5e !important; }
-      .menu ul li .active {
+      header .menu ul li .active {
         background-color: #0778bd !important; }
-    .menu ul .shopping-cart {
+    header .menu ul .shopping-cart {
       width: 20em !important;
       text-align: right !important; }
-      .menu ul .shopping-cart a {
+      header .menu ul .shopping-cart a {
         height: 38px !important; }
-      .menu ul .shopping-cart img {
+      header .menu ul .shopping-cart img {
         margin-right: 2em; }
-  .menu a {
+  header .menu a {
     color: #ffffff !important;
     margin: 0; }
-  .menu .first {
+  header .menu .first {
     border-style: solid;
     border-width: 1px 0px 1px 1px;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%; }
-  .menu .last {
+  header .menu .last {
     border-style: solid;
     border-width: 1px 0px 1px 1px;
     border-top-right-radius: 5%;
