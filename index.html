@@ -81,7 +81,7 @@ name: Foundation For Sites
 			<div class="column row">
 				<div class="orbit" role="region" data-orbit>
 					<ul class="orbit-container">
-						<ul class="orbit-indicator hide-for-small-only">
+						<ul class="orbit-indicator">
 							<li data-id="0" class="active"><span>1</span></li>
 							<li data-id="1"><span>2</span></li>
 							<li data-id="2"><span>3</span></li>
@@ -205,31 +205,6 @@ name: Foundation For Sites
 <script type="text/javascript" src="./js/motion-ui.min.js"></script>
 <script type="text/javascript" src="./js/app.js"></script>
 <script type="text/javascript" src="./js/interchange.js"></script>
-<script>
-
-
-$('.orbit-indicator li').on( 'click', function(e){
-	$('li.active').removeClass('active');
-	$(this).addClass('active');
-	var slide = $(this).attr('data-id');
-	$('.orbit-slide'+slide+'').addClass('is-active');
-
-	console.log(slide);
-
-		$('.orbit-next').click(); //its a little bit of a hack
-	});
-
-$('.menu .button').on( 'click', function(e){
-	$('.button.active').removeClass('active');
-	$(this).addClass('active');
-});
-
-$('#category-holder a').on( 'click', function(e){
-	$('#category-holder a').removeClass('active');
-	$(this).addClass('active');
-});
-
-</script>
 
 <script type='text/javascript' id="__bs_script__">//<![CDATA[
 document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.11.0.js'><\/script>".replace("HOST", location.hostname));
