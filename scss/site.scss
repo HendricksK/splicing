@@ -67,13 +67,13 @@ header  {
 	    margin-bottom: -1em;
 
 		ul {
-			background-color: #ffffff;
+			background-color:#B8B8B8;
 			list-style-type: none;
 		    margin: 0;
 		    padding: 0;
-
+	
 			li {
-				padding-right: 1px !important;
+				padding-right: 2px;
 				margin:0 !important;
 				height: 40px;
 				width: 9em;	
@@ -97,7 +97,7 @@ header  {
 			.shopping-cart {
 				width: 20em !important;
 				text-align: right !important;
-
+				padding-right: 0px;
 					a {
 						height: 38px !important;
 					}
@@ -143,7 +143,7 @@ footer  {
 	.social {
 		float:left !important;
 		margin-left: -2em;
-
+		padding-top: 5px;
 		img {
 			float:right;
 			padding-right: 5px;
@@ -206,15 +206,20 @@ footer  {
 	}
 }
 
-#category-holder  {
+.category-holder  {
 	padding-bottom:1em;
-	
+	padding-right: 2px;
 
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+	border-color: #e4e4e4;
+
+	background-color: #fff;
 	p  {
 		text-align: center;
 		color: #8d8d8d;
 		font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif !important;
-		font-size: 1em;
+		font-size: 18px;
 		/*&.active  {
 				color:#0778bd;
 			}*/
@@ -253,9 +258,15 @@ footer  {
 	}
 }
 
+.category-holder:last-child{
+		border: 0px !important;
+}
+
 .promo {
 
 	color: #fff;
+	height: 210px;
+	font-family: Kreon !important;
 
 	background-image: url("../images/gradient.png");
 		background-repeat: no-repeat;
@@ -349,16 +360,16 @@ footer  {
 			right: 1em;
 		}
 	}
-	#category-holder {
+	.category-holder {
 		padding-bottom:1em;
 
 	}
 
-	.shopping-cart  {
-		width: 4em !important;
+	header .menu ul .shopping-cart {
+		width: 7.5em !important;
 		text-align: right !important;
 
-		bold {
+		strong {
 			display:none;
 		}
 
@@ -370,6 +381,10 @@ footer  {
 	.no-padding-at-large {
 		padding-left: .9375rem !important;
     	padding-right: .9375rem !important;
+	}
+
+	.left-no-padding {
+    	padding-left: .9375rem !important;
 	}
 }
 
@@ -432,7 +447,7 @@ footer  {
     	padding-right: .9375rem !important;
 	}
 	
-	#category-holder {
+	.category-holder {
 		padding-bottom:1em;
 	}
 
@@ -443,8 +458,13 @@ footer  {
 		}
 
 		.social {
-			float:left;
+			float:right !important;
 			margin-left: 0;
+			padding: 8px 0px 0px 0px;
+			
+			img {
+				padding: 0px;
+			}
 		}
 	}
 
